@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <!-- magnific-popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-music"></i> music</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#listen">Songs</a>
+            <a href="#about">about</a>
+            <a href="#artist">artist</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div id="menu" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>get the <br> new Dzongkha songs</h3>
+            <a href="#listen" class="btn">Listen Now</a>
+        </div>
+
+    </section>
+
+    <!-- end -->
+ 
+    <section class="listen" id="listen">
+        <h1 class="heading">Music</h1>
+        <div class="r"><input type="text" id="search-box" placeholder="Search songs...">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <button id="search-btn">Search</button></div>
+        <div class="box-container">
+          <div class="box active">
+            <div class="image">
+              <img src="images/artist-1.jpg" alt="Music 1">
+              <audio controls>
+                <source src="Music/babyfloyd.m4a" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="content">
+              <h3>Hoenbi Sungkay</h3>
+              <p>BabyFloyd</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/artist-2.jpg" alt="Music 2">
+              <audio controls>
+                <source src="Music/sonam drukpa.m4a" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="content">
+              <h3>Choe da</h3>
+              <p>Sonam Drukpa</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/artist-3.jpg" alt="Music 3">
+              <audio controls>
+                <source src="Music/sonamWangchen.m4a" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="content">
+              <h3>Phudosa</h3>
+              <p>Sonam Wangchen</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/artist-4.png" alt="Music 4">
+              <audio controls>
+                <source src="Music/KEN.m4a" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="content">
+              <h3>NYEN NA</h3>
+              <p>Karma Euden Norbu</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/artist-5.png" alt="Music 5">
+              <audio controls>
+                <source src="Music/Samphel.m4a" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="content">
+              <h3>LO THONGTHRA</h3>
+              <p>Samphel</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/artist-6.png" alt="Music 6">
+              <audio controls>
+                <source src="Music/DNR.m4a" type="audio/mpeg">
+              </audio>
+            </div>
+            <div class="content">
+              <h3>DNR</h3>
+              <p>Kab Kab</p>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+
+    <section class="about" id="about">
+
+        <h1 class="heading">about</h1>
+
+        <div class="row">
+
+            <div class="content">
+                <h3>"Traditional music
+                    is the authentic heart of Bhutanese culture"</h3>
+                <p>Bhutanese music artists may not be widely known on the global stage compared to artists from some other countries. However, Bhutan has a rich cultural heritage, and traditional Bhutanese music plays a significant role in their society. Traditional songs often revolve around themes of love, nature, and religious teachings. </p>
+                <ul>
+                    <li><i class="fab fa-soundcloud"></i>party song
+                        <p>Hosted in clubs such as space 34</p>
+                    </li>
+                    <li><i class="fab fa-spotify"></i>special event
+                        <p>Latest song of Chogo and Sonam Wangchen is available</p>
+                    </li>
+                    <li><i class="fas fa-microphone"></i>live concert
+                        <p> Held occasinally</p>
+                    </li>
+                </ul>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+   
+    <!-- artist -->
+
+    <section class="artist" id="artist">
+
+        <h1 class="heading">the artist</h1>
+      
+         <!--image card layout start-->
+    <div class="container">
+        <!--image row start-->
+        <div class="row">
+          <!--image card start-->
+          <div class="image2">
+            <img src="images/artist-1.jpg" alt="babyfloyd" />
+            <div class="details">
+              <h2>Baby <span>Floyd</span></h2>
+              <p> A EXPERIMENTAL band from the southern foothills of Bhutan! Baby Floyd tracks.</p>
+              <div class="more">
+                <a href="https://www.youtube.com/results?search_query=baby+floyd" class="read-more">Visit <span>More</span></a>
+                <div class="icon-links">
+                  <a href="https://www.facebook.com/babyfloydofficial"><i class="fas fa-heart"></i></a>
+                  <a href="https://www.facebook.com/babyfloydofficial"><i class="fas fa-eye"></i></a>
+                  <a href="https://www.facebook.com/babyfloydofficial"><i class="fas fa-paperclip"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--image card end-->
+          <!--image card start-->
+          <div class="image2">
+            <img src="images/artist-2.jpg" alt="">
+            <div class="details">
+              <h2>Sonam <span>Drukpa</span></h2>
+              <p>Sonam Drukpa is a popular Bhutanese singer who sings B-Pop songs and he specializes in #RnB genre.</p>
+              <div class="more">
+                <a href="https://www.youtube.com/results?search_query=sonam+drukpa" class="read-more">Visit <span>More</span></a>
+                <div class="icon-links">
+                  <a href="https://www.facebook.com/sonam.drukpa.982"><i class="fas fa-heart"></i></a>
+                  <a href="https://www.facebook.com/sonam.drukpa.982"><i class="fas fa-eye"></i></a>
+                  <a href="https://www.facebook.com/sonam.drukpa.982"><i class="fas fa-paperclip"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--image card end-->
+          <!--image card start-->
+          <div class="image2">
+            <img src="images/artist-3.jpg" alt="">
+            <div class="details">
+              <h2>Sonam <span>Wangchen</span></h2>
+              <p>Hello Guys!I'm Sonam Wangchen and I am a Bhutanese musician and a singer.I'll be uploading all my original and cover songs and MVs.So do subscribe</p>
+              <div class="more">
+                <a href="https://www.youtube.com/results?search_query=sonam+wangchen" class="read-more">Visit <span>More</span></a>
+                <div class="icon-links">
+                  <a href="https://www.facebook.com/search/top?q=sonam%20wangchen"><i class="fas fa-heart"></i></a>
+                  <a href="https://www.facebook.com/search/top?q=sonam%20wangchen"><i class="fas fa-eye"></i></a>
+                  <a href="https://www.facebook.com/search/top?q=sonam%20wangchen"><i class="fas fa-paperclip"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--image card end-->
+        </div>
+        <!--image row end-->
+        <!--image row start-->
+        <div class="row">
+          <!--image card start-->
+          <div class="image2">
+            <img src="images/artist-4.png" alt="">
+            <div class="details">
+              <h2>Karma Euden <span>Norbu</span></h2>
+              <p>Bhutan's number female rapper Karma Euden Norbu.</p>
+              <div class="more">
+                <a href="https://www.youtube.com/results?search_query=karma+eden+norbu" class="read-more">Visit <span>More</span></a>
+                <div class="icon-links">
+                  <a href="https://www.youtube.com/results?search_query=karma+eden+norbu"><i class="fas fa-heart"></i></a>
+                  <a href="https://www.youtube.com/results?search_query=karma+eden+norbu"><i class="fas fa-eye"></i></a>
+                  <a href="https://www.youtube.com/results?search_query=karma+eden+norbu"><i class="fas fa-paperclip"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--image card end-->
+          <!--image card start-->
+          <div class="image2">
+            <img src="images/artist-5.png" alt="">
+            <div class="details">
+              <h2>Samphel <span></span></h2>
+              <p>'Druk Gi Bum' translates to 'Bhutanese Girl' and the song is a tribute to all Bhutanese women. </p>
+              <div class="more">
+                <a href="https://www.youtube.com/results?search_query=samphel" class="read-more">Visit <span>More</span></a>
+                <div class="icon-links">
+                  <a href="https://www.youtube.com/results?search_query=samphel"><i class="fas fa-heart"></i></a>
+                  <a href="https://www.youtube.com/results?search_query=samphel"><i class="fas fa-eye"></i></a>
+                  <a href="https://www.youtube.com/results?search_query=samphel"><i class="fas fa-paperclip"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--image card end-->
+          <!--image card start-->
+          <div class="image2">
+            <img src="images/artist-6.png" alt="">
+            <div class="details">
+              <h2>DNR <span></span></h2>
+              <p>D.N.R is a two member brother band with immense love for the art of music, focusing on "Rigsar" genre, hailing from the beautiful Kingdom Of Bhutan.</p>
+              <div class="more">
+                <a href="https://www.youtube.com/results?search_query=dnr" class="read-more">Visit <span>More</span></a>
+                <div class="icon-links">
+                  <a href="https://www.youtube.com/results?search_query=dnr"><i class="fas fa-heart"></i></a>
+                  <a href="https://www.youtube.com/results?search_query=dnr"><i class="fas fa-eye"></i></a>
+                  <a href="https://www.youtube.com/results?search_query=dnr"><i class="fas fa-paperclip"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--image card end-->
+        </div>
+        <!--image row end-->
+      </div>
+      <!--image card layout end-->
+   
+    </section>
+
+    <!-- end -->
+
+   
+    
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact us</h1>
+
+        <div class="row">
+
+            
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="Your Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <a href="https://mail.google.com/mail/u/0/#inbox" class="btn">send message</a>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- subscribe -->
+
+    <section class="subscribe">
+
+        <div class="row">
+            <div class="content">
+                <p>subscribe to DMusic</p>
+            </div>
+
+            <div class="inputBox">
+                <input type="email" class="email" placeholder="Your email">
+                <input type="button" value="subscribe" class="btn">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="https://www.facebook.com/kunzang.chogyel.5" class="fab fa-facebook-f"></a>
+            <a href="https://about.instagram.com/" class="fab fa-instagram"></a>
+            <a href="https://twitter.com/en/home" class="fab fa-twitter"></a>
+            <a href="https://www.linkedin.com/feed/" class="fab fa-linkedin"></a>
+            <a href="https://www.pinterest.com/" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"><span>created by  robindungyel| all rights reserved!</span> </div>
+
+    </section>
+
+
+    <!-- end -->
+
+
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- magnific popup js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
